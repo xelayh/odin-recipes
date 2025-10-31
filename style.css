@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #fdf3e7; /* lighter antique white */
+    color: #5a2d0c; /* dark brown text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #3e2723; /* deep brown for readability */
+}
+
+ul {
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+    border: 2px solid #deb887; /* warm beige border */
+    background-color: #fff8f0; /* soft background for better contrast */
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px; /* smoother look */
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+ul li a {
+    color: #a0522d; /* sienna brown link */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #8b0000; /* dark red on hover for emphasis */
+}
